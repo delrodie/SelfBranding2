@@ -1,0 +1,93 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./assets/styles/app.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./assets/styles/app.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css);
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./assets/styles/app.scss (2) ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./assets/styles/app.scss (3) ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --couleur-bleu-marine: #010a2b;
+  --couleur-maron: #724004;
+  --couleur-orange-maron: #9b5604;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-accueil {
+  background: #010a2b;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  padding: 0 8.5%;
+  position: relative;
+}
+.content .text-box {
+  margin-top: 15%;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 26px;
+}
+.content .text-box h1 {
+  font-size: 40px;
+  line-height: 80px;
+}
+.content .text-box h1 .services {
+  color: var(--couleur-orange-maron);
+}
+.content .text-box h3 {
+  font-size: 20px;
+}
+.content .text-box a {
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 6px;
+  border: 2px solid var(--couleur-maron);
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-style: italic;
+  background: var(--couleur-maron);
+}
+.content .text-box a:hover {
+  background: transparent;
+  color: #fff;
+}
+
+.navbar .nav-item a {
+  color: #fff;
+}
+.navbar .nav-item a:hover {
+  color: var(--couleur-maron);
+}
+.navbar .nav-item.dropdown .dropdown-menu {
+  background: rgba(var(--couleur-bleu-marine, 0.5));
+  border: solid 0.01rem var(--couleur-maron);
+}
+.navbar button.navbar-toggler span.navbar-toggler-icon {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 425px) {
+  .text-box h1 {
+    line-height: 20px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmNzcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7QUFJQTtFQUNFO0VBQ0E7RUFDQTtBQUFGOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7QUFDRjs7QUFDQTtFQUNFO0FBRUY7O0FBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0FBR0Y7QUFERTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0FBR0o7QUFESTtFQUNFO0VBQ0E7QUFHTjtBQUZNO0VBQ0U7QUFJUjtBQUFJO0VBQ0U7QUFFTjtBQUNJO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0FBQ047QUFDTTtFQUNFO0VBQ0E7QUFDUjs7QUFNSTtFQUNFO0FBSE47QUFLTTtFQUNFO0FBSFI7QUFPTTtFQUNFO0VBQ0E7QUFMUjtBQVVJO0VBQ0U7RUFDQTtBQVJOOztBQVlBO0VBRUk7SUFDRTtFQVZKO0FBQ0YsQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2Fzc2V0cy9zdHlsZXMvYXBwLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzMj9mYW1pbHk9UG9wcGluczppdGFsLHdnaHRAMCwxMDA7MCwyMDA7MCwzMDA7MCw0MDA7MCw1MDA7MCw2MDA7MCw3MDA7MCw4MDA7MCw5MDA7MSwxMDA7MSwyMDA7MSwzMDA7MSw0MDA7MSw1MDA7MSw2MDA7MSw3MDA7MSw4MDA7MSw5MDAmZGlzcGxheT1zd2FwJyk7XG5AaW1wb3J0IHVybCgnaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9ib290c3RyYXBANS4xLjMvZGlzdC9jc3MvYm9vdHN0cmFwLm1pbi5jc3MnKTtcbkBpbXBvcnQgdXJsKCdodHRwczovL2NkbmpzLmNsb3VkZmxhcmUuY29tL2FqYXgvbGlicy9mb250LWF3ZXNvbWUvNi4xLjEvY3NzL2FsbC5taW4uY3NzJyk7XG5cbjpyb290e1xuICAtLWNvdWxldXItYmxldS1tYXJpbmU6ICMwMTBhMmI7XG4gIC0tY291bGV1ci1tYXJvbjogIzcyNDAwNDtcbiAgLS1jb3VsZXVyLW9yYW5nZS1tYXJvbjogIzliNTYwNDtcbn1cbip7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgZm9udC1mYW1pbHk6ICdQb3BwaW5zJywgc2Fucy1zZXJpZjtcbn1cbi5iZy1hY2N1ZWlse1xuICBiYWNrZ3JvdW5kOiAjMDEwYTJiO1xufVxuLmNvbnRlbnR7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMHZoO1xuICBjb2xvcjogI2ZmZjtcbiAgcGFkZGluZzogMCA4LjUlO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG5cbiAgLnRleHQtYm94e1xuICAgIG1hcmdpbi10b3A6IDE1JTtcbiAgICBmb250LXNpemU6IDE3cHg7XG4gICAgbGV0dGVyLXNwYWNpbmc6IDFweDtcbiAgICBsaW5lLWhlaWdodDogMjZweDtcblxuICAgIGgxe1xuICAgICAgZm9udC1zaXplOiA0MHB4O1xuICAgICAgbGluZS1oZWlnaHQ6IDgwcHg7XG4gICAgICAuc2VydmljZXN7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1jb3VsZXVyLW9yYW5nZS1tYXJvbik7XG4gICAgICB9XG4gICAgfVxuXG4gICAgaDN7XG4gICAgICBmb250LXNpemU6IDIwcHg7XG4gICAgfVxuXG4gICAgYXtcbiAgICAgIG1hcmdpbi10b3A6IDMwcHg7XG4gICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3JkZXI6IDJweCBzb2xpZCB2YXIoLS1jb3VsZXVyLW1hcm9uKTtcbiAgICAgIGNvbG9yOiAjZmZmO1xuICAgICAgcGFkZGluZzogMTBweCAzMHB4O1xuICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgZm9udC1zdHlsZTogaXRhbGljO1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tY291bGV1ci1tYXJvbik7XG5cbiAgICAgICY6aG92ZXJ7XG4gICAgICAgIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50O1xuICAgICAgICBjb2xvcjogI2ZmZjtcbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbi5uYXZiYXJ7XG4gIC5uYXYtaXRlbXtcbiAgICBhe1xuICAgICAgY29sb3I6ICNmZmY7XG5cbiAgICAgICY6aG92ZXJ7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1jb3VsZXVyLW1hcm9uKTtcbiAgICAgIH1cbiAgICB9XG4gICAgJi5kcm9wZG93bntcbiAgICAgIC5kcm9wZG93bi1tZW51e1xuICAgICAgICBiYWNrZ3JvdW5kOiByZ2JhKHZhcigtLWNvdWxldXItYmxldS1tYXJpbmUsIDAuNSkpO1xuICAgICAgICBib3JkZXI6IHNvbGlkIC4wMXJlbSB2YXIoLS1jb3VsZXVyLW1hcm9uKTtcbiAgICAgIH1cbiAgICB9XG4gIH1cbiAgYnV0dG9uLm5hdmJhci10b2dnbGVye1xuICAgIHNwYW4ubmF2YmFyLXRvZ2dsZXItaWNvbntcbiAgICAgIGNvbG9yOiAjZmZmO1xuICAgICAgYmFja2dyb3VuZDogcmdiYSgjZmZmLCAwLjUpO1xuICAgIH1cbiAgfVxufVxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDI1cHgpIHtcbiAgLnRleHQtYm94e1xuICAgIGgxe1xuICAgICAgbGluZS1oZWlnaHQ6IDIwcHg7XG4gICAgfVxuICB9XG59XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/
